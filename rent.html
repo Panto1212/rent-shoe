@@ -9,72 +9,71 @@
 </head>
 
 <body>
-  <div class="container">
+  <div class="container" id="product-form">
     <div class="row">
-      <div class="col-xs-12 col-md-6">
-  <form class="md-form">
-    <div class="file-field big">
-      <a class="btn-floating btn-lg amber darken-2 mt-0 float-left">
+      <div class="col-xs-12 col-md-6" id="uploading-colomn">
+        <form class="md-form">
+          <div class="file-field big">
+            <a class="btn-floating btn-lg amber darken-2 mt-0 float-left">
             <i class="fa fa-cloud-upload" aria-hidden="true"></i>
             <input type="file" multiple>
         </a>
-      <div class="file-path-wrapper">
-        <input class="file-path validate" type="text" placeholder="Upload one or more files">
+            <div class="file-path-wrapper">
+              <input class="file-path validate" type="text" placeholder="Upload one or more files">
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="col-xs-12 col-md-6">
+        <form id="renting-form">
+          <div class="form-group">
+            <label for="product-name">Product Name :</label>
+            <input type="text" class="form-group" required id="product-name">
+          </div>
+          <div class="form-group">
+            <label for="product-description">Description :</label>
+            <input type="text" class="form-group" required id="product-description">
+          </div>
+          <div class="form-group">
+            <label for="product-size">Size :</label>
+            <input type="number" class="form-group" required id="product-size">
+          </div>
+          <div class="form-group">
+            <label for="product-color">Color :</label>
+            <input type="text" class="form-group" required id="product-color">
+          </div>
+
+          <!-- <input type="number" min="1" id="price" name="price" value="" placeholder="" class="" data-aut-id="inPrice">
+<label></label> -->
+          <div class="form-group">
+            <label for="product-price">Suggested Price :</label>
+            <input type="number" class="form-group" required id="product-price">
+          </div>
+          <div class="form-group">
+            <label for="product-location">Location</label>
+            <input type="text" class="form-group" required id="product-location">
+          </div>
+          <button id="renting" class="btn" type="submit">Rent</button>
+        </form>
+        <button id="previewing" type="button" class="btn">Preview add</button>
+
       </div>
     </div>
-  </form>
-</div>
-<div class="col-xs-12 col-md-6">
-  <form id="renting-form">
-    <div class="form-group">
-      <label for="product-name">Product Name :</label>
-      <input type="text" class="form-group" required id="product-name">
-    </div>
-    <div class="form-group">
-      <label for="product-description">Description :</label>
-      <input type="text" class="form-group" required id="product-description">
-    </div>
-    <div class="form-group">
-      <label for="product-size">Size :</label>
-      <input type="number" class="form-group" required id="product-size">
-    </div>
-    <div class="form-group">
-      <label for="product-color">Color :</label>
-      <input type="text" class="form-group" required id="product-color">
-    </div>
-
-    <!-- <input type="number" min="1" id="price" name="price" value="" placeholder="" class="" data-aut-id="inPrice">
-<label></label> -->
-    <div class="form-group">
-      <label for="product-price">Suggested Price :</label>
-      <input type="number" class="form-group" required id="product-price">
-    </div>
-    <div class="form-group">
-      <label for="product-location">Location</label>
-      <input type="text" class="form-group" required id="product-location">
-    </div>
-    <button id="renting" class="btn" type="submit">Rent</button>
-  </form>
-  <button id="previewing" type="button" class="btn">Preview add</button>
-
-</div>
-</div>
-</div>
-
-
-        <button type="" data-aut-id="" class="rui-3sH3b rui-23TLR"><span>Upload</span></button>
-
-    <input type="file" accept="image/*" style="display:none" multiple="" autocomplete="off">
   </div>
+  <!--   <button type="" data-aut-id="" class="rui-3sH3b rui-23TLR"><span>Upload</span></button>
+
+<input type="file" accept="image/*" style="display:none" multiple="" autocomplete="off">
+</div>
 
 
-        <input type="text" id="title" name="title" value="" placeholder="" class="" maxlength="70" data-aut-id="inTitle">
+  <input type="text" id="title" name="title" value="" placeholder="" class="" maxlength="70" data-aut-id="inTitle">
 
-          <input type="number" id="price" name="price" value="" placeholder="" class="" data-aut-id="inPrice" min="1">
+    <input type="number" id="price" name="price" value="" placeholder="" class="" data-aut-id="inPrice" min="1">
 
-          <div class="rui-QXhCS _3R58J rui-1TuAB" style="margin:15px 0 0 0">
-            <input type="text" id="locations" name="locations" value="" placeholder="" class="" data-aut-id="inPostAddress" autocomplete="off">
+    <div class="rui-QXhCS _3R58J rui-1TuAB" style="margin:15px 0 0 0">
+      <input type="text" id="locations" name="locations" value="" placeholder="" class="" data-aut-id="inPostAddress" autocomplete="off">
 
+ -->
 
 
 
